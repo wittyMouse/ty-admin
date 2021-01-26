@@ -1,0 +1,148 @@
+@import "~animate.css/animate.css";
+@import "./css/base.css";
+@import "./css/page.css";
+
+.chart-item-box {
+  // margin-top: 20px;
+  // padding: 0 20px;
+
+  .chart-item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.animated.delay-half-1s {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.el-date-editor {
+  .el-input__inner {
+    color: #ffffff;
+    background-color: #0f3867;
+    border-color: #1c6bab;
+  }
+
+  .el-input__inner::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+
+  .el-input__prefix,
+  .el-input__suffix {
+    color: #46c7ea;
+  }
+}
+
+.el-picker-panel,
+.el-picker-panel__footer {
+  background-color: #0f3867;
+  border-color: #1c6bab;
+}
+
+.el-picker-panel {
+  .el-input__inner {
+    background-color: #0f3867;
+    border-color: #1c6bab;
+    color: #ffffff;
+  }
+
+  .el-input__inner::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+}
+
+.el-date-picker__time-header {
+  border-bottom-color: #1c6bab;
+
+}
+
+.el-date-picker__header * {
+  color: #ffffff;
+}
+
+.el-picker-panel__footer {
+  .el-button.is-plain {
+    background-color: #0f3867;
+    color: #ffffff;
+    border-color: #1c6bab;
+  }
+}
+
+.popper__arrow,
+.popper__arrow::after {
+  border-bottom-color: #1c6bab !important;
+}
+
+.event-table-box table tr th,
+table tr th {
+  background-color: #0f3867;
+}
+
+.prev-month div span,
+.next-month div span {
+  color: #606266 !important;
+}
+
+.available div span {
+  color: #ffffff !important;
+}
+
+.el-date-table th {
+  color: #ffffff;
+  border-bottom-color: #1c6bab;
+  text-align: center;
+}
+
+.el-time-panel {
+  color: #ffffff;
+  background-color: #0f3867;
+  border-color: #1c6bab;
+}
+
+.el-time-spinner__arrow {
+  color: #ffffff;
+}
+
+.el-time-spinner__item {
+  color: #ffffff;
+}
+
+.el-time-panel__content:before,
+.el-time-panel__content:after {
+  border-color: #1c6bab;
+}
+
+.el-time-spinner__item.active:not(.disabled) {
+  color: #ffffff;
+}
+
+.el-time-spinner__wrapper.is-arrow .el-time-spinner__item:hover:not(.disabled):not(.active) {
+  background: #0f3867;
+}
+
+.el-time-panel__footer {
+  border-color: #1c6bab;
+
+  .el-time-panel__btn.cancel {
+    color: #ffffff;
+  }
+}
+
+.el-select-dropdown,
+.el-select-dropdown * {
+  background-color: #0f3867;
+  border-color: #1c6bab;
+  color: #ffffff;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover,
+.el-select-dropdown__item.hover span,
+.el-select-dropdown__item:hover span {
+  background-color: #0d2153;
+}
+
+.el-tooltip__popper.is-dark {
+  background-color: #1c6bab;
+}
